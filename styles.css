@@ -1,0 +1,71 @@
+/* Profile Card Customization */
+
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.profile-card {
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: scale(1.05);
+}
+
+
+
+/* Header and Nav Styles */
+header {
+  background-color: #111;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f64c57;
+}
+
+/* Section Styling */
+section {
+  padding-top: 60px;
+}
+
+section h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  color: #f64c57;
+}
+
+/* Skill Boxes */
+.workbox {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.workbox:hover {
+  transform: scale(1.05);
+}
