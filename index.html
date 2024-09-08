@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M Tarun Kumar - Portfolio</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-r from-purple-500 to-indigo-900 text-white">
+
+    <!-- Header Section -->
+    <header class="w-full py-6 bg-gray-900">
+        <nav class="container mx-auto flex justify-end items-center">
+            <ul class="flex space-x-10">
+                <li><a href="#" class="nav-link text-white" data-section="home">Home</a></li>
+                <li><a href="#" class="nav-link text-white" data-section="about">About Me</a></li>
+                <li><a href="#" class="nav-link text-white" data-section="skills">Skills</a></li>
+                <li><a href="#" class="nav-link text-white" data-section="projects">Projects</a></li>
+                <li><a href="#" class="nav-link text-white" data-section="contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <section id="home" class="section active flex items-center justify-center min-h-screen bg-gray-900">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <!-- Left Side: Text Content -->
+            <div class="text-left md:w-1/2 p-8">
+                <h2 class="text-5xl font-bold">M Tarun Kumar</h2>
+                <h4 class="text-2xl text-pink-500 mt-4">Software Engineer</h4>
+                <p class="text-lg mt-4">
+                    I am a passionate software engineer with expertise in app development, web development, API development, and front-end development.
+                </p>
+                <button class="mt-6 bg-pink-500 text-white py-2 px-6 rounded-full hover:bg-pink-600 transition">
+                    <a href="files/M Tarun kumar(internship Experience).pdf" download="M Tarun kumar(internship Experience).pdf" class="flex items-center">
+                        <i class="fa fa-download"></i> Download Resume
+                    </a>
+                </button>
+                
+            </div>
+            <!-- Right Side: Profile Image -->
+            <div class="md:w-1/2 p-8 flex justify-center">
+                <!-- <img src="" alt="M Tarun Kumar" > -->
+            </div>
+        </div>
+    </section>
+    
+<!-- About Me Section -->
+<section id="about" class="section active flex items-center justify-center min-h-screen bg-gray-900 text-white">
+    <div class="max-w-4xl p-10 bg-gray-800 bg-opacity-75 rounded-lg shadow-lg">
+        <h2 class="text-5xl font-bold mb-6">About Me</h2>
+        <p class="mt-4 text-lg max-w-3xl mx-auto">
+            I'm M Tarun Kumar, a passionate software engineer with six months of hands-on internship experience. 
+            My expertise spans across app development, web development, API integration, and front-end design. 
+            Throughout my journey, I've developed a strong foundation in building efficient and scalable software solutions that solve real-world problems.
+        </p>
+        <p class="mt-4 text-lg max-w-3xl mx-auto">
+            I thrive on challenges, love exploring new technologies, and continuously seek to improve my coding and problem-solving skills. 
+            Whether it's collaborating with a team on complex projects or working independently, I bring creativity and a dedication to excellence in all I do.
+        </p>
+        <p class="mt-4 text-lg max-w-3xl mx-auto">
+            In addition to coding, I enjoy mentoring new developers, sharing knowledge, and staying updated with the latest industry trends.
+            My goal is to make a positive impact through technology and innovative solutions.
+        </p>
+        <button class="mt-6 bg-pink-500 text-white py-2 px-6 rounded-full hover:bg-pink-600 transition">
+            <i class="fa fa-download"></i> Download My Resume
+        </button>
+    </div>
+</section>
+     <!-- Skills Section -->
+     <section id="skills" class="section active flex items-center justify-center min-h-screen bg-gray-900 text-white">
+        <div class="max-w-6xl w-full p-10 bg-gray-900 bg-opacity-80 rounded-lg shadow-lg text-center">
+            <h2 class="text-5xl font-bold mb-10">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- App Development Skill -->
+                <div class="workbox p-6 bg-gray-800 rounded-lg shadow-lg hover:bg-gray-700 transition text-center">
+                    <img src="images/app.svg" alt="App Development" class="w-16 mx-auto">
+                    <h3 class="text-2xl font-semibold mt-4">App Development</h3>
+                    <p class="mt-2 text-sm">Flutter, React Native, Android Studio</p>
+                    <p class="text-sm">Cross-platform apps with rich UIs.</p>
+                </div>
+                
+                <!-- Web Development Skill -->
+                <div class="workbox p-6 bg-gray-800 rounded-lg shadow-lg hover:bg-gray-700 transition text-center">
+                    <img src="images/web.svg" alt="Web Development" class="w-16 mx-auto">
+                    <h3 class="text-2xl font-semibold mt-4">Web Development</h3>
+                    <p class="mt-2 text-sm">HTML, CSS, JavaScript, Angular, React</p>
+                    <p class="text-sm">Modern, responsive websites and web apps.</p>
+                </div>
+                
+                <!-- API Development Skill -->
+                <div class="workbox p-6 bg-gray-800 rounded-lg shadow-lg hover:bg-gray-700 transition text-center">
+                    <img src="images/api.svg" alt="API Development" class="w-16 mx-auto">
+                    <h3 class="text-2xl font-semibold mt-4">API Development</h3>
+                    <p class="mt-2 text-sm">Java, J2EE, REST, Spring Boot, MicroService</p>
+                    <p class="text-sm">Secure and scalable API design and integration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+       <!-- Projects Section -->
+       <section id="projects" class="text-center section flex items-center justify-center min-h-screen bg-gray-900 text-white py-12">
+        <div class="max-w-6xl p-10 bg-gray-900 bg-opacity-80 rounded-lg shadow-lg">
+            <h2 class="text-5xl font-bold mb-10">Projects</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- App Development Projects Column -->
+                <div class="p-6 bg-gray-800 rounded-lg shadow-lg hover:bg-gray-700 transition">
+                    <h3 class="text-3xl font-semibold mb-4">App Development Projects</h3>
+                    <div class="space-y-4">
+                        <div class="bg-gray-700 p-4 rounded-lg shadow-lg hover:bg-gray-600 transition">
+                            <h4 class="text-2xl font-bold">Chits Fund App</h4>
+                            <p class="mt-2 text-sm">A complete chits fund management system with user authentication, group notifications, and payment tracking using Firebase.</p>
+                        </div>
+                        <div class="bg-gray-700 p-4 rounded-lg shadow-lg hover:bg-gray-600 transition">
+                            <h4 class="text-2xl font-bold">Student and Teacher App</h4>
+                            <p class="mt-2 text-sm">An interactive platform for students and teachers to collaborate, share materials, and manage assignments digitally.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Web Development Projects Column -->
+                <div class="p-6 bg-gray-800 rounded-lg shadow-lg hover:bg-gray-700 transition">
+                    <h3 class="text-3xl font-semibold mb-4">Web Development Projects</h3>
+                    <div class="space-y-4">
+                        <div class="bg-gray-700 p-4 rounded-lg shadow-lg hover:bg-gray-600 transition">
+                            <h4 class="text-2xl font-bold">Portfolio Website</h4>
+                            <p class="mt-2 text-sm">A personal portfolio website built with Tailwind CSS and React, showcasing projects and skills.</p>
+                        </div>
+                        <div class="bg-gray-700 p-4 rounded-lg shadow-lg hover:bg-gray-600 transition">
+                            <h4 class="text-2xl font-bold">Process Control Facility</h4>
+                            <p class="mt-2 text-sm">PCF is a suite of applications storing and providing customer information for different clients. These applications store customer profiles, locations, and account details based on business rules.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- API Development Projects Column -->
+                <div class="p-6 bg-gray-800 rounded-lg shadow-lg hover:bg-gray-700 transition">
+                    <h3 class="text-3xl font-semibold mb-4">API Development Projects</h3>
+                    <div class="space-y-4">
+                        <div class="bg-gray-700 p-4 rounded-lg shadow-lg hover:bg-gray-600 transition">
+                            <h4 class="text-2xl font-bold">User Management System</h4>
+                            <p class="mt-2 text-sm">A comprehensive User Management System using Spring Boot, Hibernate, and Thymeleaf to manage user accounts efficiently.</p>
+                        </div>
+                        <div class="bg-gray-700 p-4 rounded-lg shadow-lg hover:bg-gray-600 transition">
+                            <h4 class="text-2xl font-bold">Task Management API</h4>
+                            <p class="mt-2 text-sm">An API for managing tasks, including creating, updating, and deleting tasks, with user authentication.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Empty column to balance layout -->
+                <div class="p-6 bg-transparent"></div>
+    
+                <!-- Empty column to balance layout -->
+                <div class="p-6 bg-transparent"></div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+       <!-- Contact Section -->
+<section id="contact" class="text-center section flex items-center justify-center min-h-screen bg-gray-900 text-white py-12">
+    <div class="max-w-4xl p-10 bg-gray-900 bg-opacity-80 rounded-lg shadow-lg">
+        <h2 class="text-5xl font-bold mb-6">Contact Me</h2>
+        <p class="text-lg mb-6">Feel free to reach out via phone or email, or use the contact form below.</p>
+        <p class="mt-2 text-lg">Phone: <strong class="text-pink-300">7989600984</strong></p>
+        <p class="mt-2 text-lg">Email: <strong class="text-pink-300">tarunkumarmm1402@gmail.com</strong></p>
+        
+        <div class="mt-8">
+            <h3 class="text-3xl font-semibold mb-4">Send a Message</h3>
+            <form action="mailto:tarunkumarmm1402@gmail.com" method="post" enctype="text/plain">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="mb-4">
+                        <label for="name" class="block text-lg font-medium">Name</label>
+                        <input type="text" id="name" name="name" required class="w-full mt-1 p-3 bg-gray-800 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-pink-500"/>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-lg font-medium">Email</label>
+                        <input type="email" id="email" name="email" required class="w-full mt-1 p-3 bg-gray-800 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-pink-500"/>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-lg font-medium">Message</label>
+                    <textarea id="message" name="message" rows="4" required class="w-full mt-1 p-3 bg-gray-800 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-pink-500"></textarea>
+                </div>
+                <button type="submit" class="bg-pink-500 text-white py-2 px-6 rounded-full hover:bg-pink-600 transition">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- Footer Section
+    <footer class="w-full py-6 bg-gray-800 text-center mt-12">
+        <p class="text-sm">© 2024 M Tarun Kumar. All Rights Reserved.</p>
+        <p class="text-sm">Designed with <i class="fa fa-heart text-pink-500"></i> by Tarun Kumar</p>
+    </footer> -->
+
+    <style>
+        .active-link {
+            font-weight: bold;
+            border-bottom: 2px solid #ff4081; /* Pink border to indicate active link */
+        }
+    </style>
+
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+</body>
+</html>
