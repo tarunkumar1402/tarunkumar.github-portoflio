@@ -28,6 +28,8 @@ function removeActiveClass() {
     });
 }
 
+
+
 // Add click event listeners to all nav links
 navLinks.forEach(link => {
     link.addEventListener('click', function (e) {
